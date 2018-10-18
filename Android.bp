@@ -3,6 +3,7 @@
 java_library {
 
     no_framework_libs: true,
+    installable: true,
     name: "tcmiface",
     srcs: ["**/*.java"],
 }
